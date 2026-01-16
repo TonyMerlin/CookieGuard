@@ -46,3 +46,11 @@ mage-messages
 frontend customer-data storage cookies
 
 any third-party cookie set via Magento APIs
+
+-------------
+
+#Install
+
+bin/magento module:enable Merlin_CookieGuard 
+bin/magento setup:upgrade
+bin/magento cache:flush
